@@ -8,3 +8,19 @@
 - L: Liskov Substitution Principle.
 - I: Interface Segregation Principle.
 - D: Dependency Inversion Principle.
+
+## Getting Started
+
+### Installing
+```
+npm install
+```
+
+### Run Dev-Server
+```
+npm start
+```
+### Run Build
+```
+npm run build
+```

@@ -25,6 +25,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
         title: 'S.O.L.I.D with TypeScript',
+        template: './src/index.html'
         }),
     ],
 };
