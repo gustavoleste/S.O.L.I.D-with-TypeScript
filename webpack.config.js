@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './src/index.ts',
@@ -18,4 +19,12 @@ module.exports = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
     },
+    devServer: {
+        contentBase: './src',
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+        title: 'S.O.L.I.D with TypeScript',
+        }),
+    ],
 };
